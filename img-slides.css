@@ -4,7 +4,7 @@
 .slider-holder
 {
     width: 350px;
-    height: 320px;
+    height: 280px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
@@ -15,7 +15,7 @@
 .image-holder
 {
     width: 1050px;
-    height: 320px;
+    height: 280px;
     clear: both;
     position: relative;
    
@@ -72,12 +72,12 @@
 @media screen and (min-width: 786px){
 
     .slider-holder{
-        width: 800px;
+        width: 700px;
         height: 400px;
     }
 
     .image-holder{
-        width: 2400px;
+        width: 2100px;
         height: 400px;
     }
 
@@ -89,12 +89,12 @@
 
 #slider-image-2:target ~ .image-holder
 {
-    left: -800px;
+    left: -700px;
 }
 
 #slider-image-3:target ~ .image-holder
 {
-    left: -1600px;
+    left: -1400px;
 }
 
 }

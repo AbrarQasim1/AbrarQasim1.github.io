@@ -1,20 +1,27 @@
-
-*{
+* {
     box-sizing: border-box;
 }
 
-.flex-container{
+.flex-container {
 
     display: flex;
     border-width: 40px;
     flex-wrap: wrap;
-  font-size: 30px;
-  text-align: center;
-  justify-content: space-evenly;
+    font-size: medium;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
-.address1, .address2{
+.address1,
+.address2 {
 
     border-radius: 10px;
-    background-color: bisque;
+    background-color: rgb(214, 214, 214);
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    background-color: lightgray;
+    padding: 30px;
 }

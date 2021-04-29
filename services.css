@@ -3,53 +3,26 @@
 }
 
 .flex-container {
-  display: flexbox;
+  display: flex;
   flex-wrap: wrap;
-  font-size: 30px;
+  font-size: medium;
   text-align: center;
-  
+
 }
 
-.It-services, .Network, .infra-services{
+.it-services,
+.network-is,
+.infra-services,
+.enterprise-solution {
 
-    flex: 100%;
-    border-radius: 10px;
-    background-color: bisque;
-}
-
-
-@media  (min-width: 786px){
-
-
-.It-services{
-
-    flex: 50%;
-    
-    background-color: dodgerblue;
+  flex: 400px;
+  border-radius: 10px;
+  background-color: whitesmoke;
   padding: 10px;
+  margin: 10px;
 }
 
-.Network{
-
-    flex: 50%;
-    background-color: blanchedalmond;
-  padding: 10px;
+h2 {
+  background-color: lightblue;
+  padding: 30px;
 }
-
-.infra-services{
-
-    flex: 25%;
-    background-color: aqua;
-  padding: 10px;
-}
-
-.flex-container{
-    column-count: 3;
-    justify-self: stretch;
-}
-
-
-
-
-}
-    
