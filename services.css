@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flexbox;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.It-services, .Network, .infra-services{
+
+    flex: 100%;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+
+@media  (min-width: 786px){
+
+
+.It-services{
+
+    flex: 50%;
+    
+    background-color: dodgerblue;
+  padding: 10px;
+}
+
+.Network{
+
+    flex: 50%;
+    background-color: blanchedalmond;
+  padding: 10px;
+}
+
+.infra-services{
+
+    flex: 25%;
+    background-color: aqua;
+  padding: 10px;
+}
+
+.flex-container{
+    column-count: 3;
+    justify-self: stretch;
+}
+
+
+
+
+}
+    
