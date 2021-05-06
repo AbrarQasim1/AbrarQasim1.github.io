@@ -53,39 +53,6 @@ nav ul li a {
     font-size: 10px;
 }
 
-.dropdown {
-    float: right;
-    overflow: hidden;
-    margin: 0px -5px;
-    display: block;
-    line-height: 50px;
-
-}
-
-.dropdown .dropbtn {
-    border: none;
-    outline: none;
-    font-size: inherit;
-    background-color: inherit;
-    margin: 0px;
-}
-
-.dropdown-content {
-    display: none;
-    position: relative;
-    background-color: rgba(90, 81, 81, 0.4);
-}
-
-
-
-
-
-.dropdown:hover .dropdown-content {
-    display: block;
-
-}
-
-
 /* when hovering the color of text and of the box will change */
 
 nav ul li a:hover {
