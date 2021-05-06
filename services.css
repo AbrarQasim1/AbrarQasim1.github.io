@@ -7,7 +7,6 @@
   flex-wrap: wrap;
   font-size: medium;
   text-align: center;
-
 }
 
 .it-services,
@@ -20,9 +19,11 @@
   background-color: whitesmoke;
   padding: 10px;
   margin: 10px;
+  box-shadow: 10px 10px 20px rgb(0 0 0 / 20%);
+
 }
 
 h2 {
-  background-color: lightblue;
+  background-color: lightcyan;
   padding: 30px;
 }

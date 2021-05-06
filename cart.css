@@ -1,0 +1,23 @@
+.flex-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    font-size: medium;
+    text-align: center;
+}
+
+.item {
+
+    flex: 100%;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+
+    background-color: lightcyan;
+    padding: 30px;
+}

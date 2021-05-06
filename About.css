@@ -2,11 +2,13 @@
   box-sizing: border-box;
 }
 
+/* to make other elements be placed after the utilised columns */
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
+
 
 [class*="col-"] {
   float: left;
@@ -15,8 +17,7 @@
 
 
 h2 {
-  background-color: rgba(190, 155, 155, 0.4);
-  color: #ffffff;
+  background-color: lightcyan;
   padding: 30px;
 }
 
@@ -30,12 +31,6 @@ h3 {
   text-align: center;
 }
 
-
-
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
 
 @media only screen and (min-width: 768px) {
 
